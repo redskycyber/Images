@@ -27,11 +27,6 @@ sudo systemctl start xrdp
 sudo apt autoremove -y
 sudo apt clean
 
-# Clear shell history (cosmetic)
-history -c
-rm -f ~/.bash_history
-sudo rm -f /root/.bash_history
-export HISTFILE=/dev/null
 
 # Deprovision VM for Azure
 sudo waagent -deprovision+user -force
