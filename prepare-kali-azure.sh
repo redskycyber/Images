@@ -8,7 +8,6 @@ sudo apt -y full-upgrade
 # Install standard Kali tools
 sudo apt install -y \
     kali-linux-default \
-    kali-linux-top10 \
     nmap metasploit-framework sqlmap gobuster
 
 # Install and configure RDP (xrdp)
